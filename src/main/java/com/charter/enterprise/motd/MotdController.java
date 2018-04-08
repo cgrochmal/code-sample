@@ -24,6 +24,7 @@ public class MotdController {
     /**
      * PUT /motd - updates message of the day
      *
+     *  @return A success message, if the request was successful.
      *  @param newMessage: JSON body of the message
      *     format: {
      *          value (String): the value of the new message
